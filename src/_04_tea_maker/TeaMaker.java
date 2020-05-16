@@ -1,4 +1,7 @@
 package _04_tea_maker;
+
+import _04_tea_maker.Kettle.Water;
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
@@ -7,7 +10,13 @@ package _04_tea_maker;
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea in this runner class, using the other classes below */
+	
+	Water water = new Water();
 
+water.boil();
+
+	
+	
 }
 
 class TeaBag {
